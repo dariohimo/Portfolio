@@ -7,9 +7,11 @@ import {
   faGithub,
   
 } from '@fortawesome/free-brands-svg-icons'
-import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope, faImagePortrait, } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
-import { faEvernote } from '@fortawesome/free-brands-svg-icons'
+//import { faPagelines } from '@fortawesome/free-brands-svg-icons'
+//import { faPortrait } from '@fortawesome/free-solid-svg-icons'
+//import { faPortrait } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = () => {
   return (
@@ -21,10 +23,16 @@ const Sidebar = () => {
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+
         </NavLink>
         <NavLink activeclassname="active" className="about-link" to="/about">
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
+
+        <NavLink activeclassname="active" className="porfolio-link" to="/porfolio">
+          <FontAwesomeIcon icon={faImagePortrait} color="#4d4d4e" />
+        </NavLink>
+
         <NavLink
           activeclassname="active"
           className="contact-link"

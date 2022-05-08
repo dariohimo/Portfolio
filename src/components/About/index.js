@@ -35,6 +35,8 @@ const About = () => {
               idx={15}
             />
           </h1>
+
+         
           <p>
             Hi front-end developer. 
           </p>

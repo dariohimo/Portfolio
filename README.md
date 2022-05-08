@@ -110,7 +110,12 @@ ___
 
 ---
 ___
+<summary>Porfolio </summary>
 
+![Moockup](img/porfolio.png)
+
+---
+___
 <summary>Contact</summary>
 
 ![Moockup](img/contactMap.png)
@@ -122,7 +127,11 @@ ___
 - react
 - scss
 - npm
-
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,vim,react,bootstrap,js,html,css,scss,nodejs,linux&perline=5" />
+  </a>
+</p>
 
 ```
 npm install 

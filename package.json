@@ -2,8 +2,10 @@
   "name": "react_portfolio_dariohimo",
   
   "version": "0.1.0",
-  
-  "homepage": "https://dariohimo.github.io/Portfolio/",
+
+  "description": "Bootcamp educamas Cohorte IV Dic_2021 - Junio_7_de_2022. Portfolio proyectos realizados",
+
+  "homepage": "https://portfolio.dariohimo.repl.co/",
   
   "private": true,
   

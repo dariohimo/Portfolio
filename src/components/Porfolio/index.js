@@ -6,6 +6,8 @@ import img3 from './imgPorfolio/3_impactoCovid19.png'
 import img4 from './imgPorfolio/4_DjangoPOlls.png'
 import img5 from './imgPorfolio/5_ipv4_network.png'
 import img6 from './imgPorfolio/6_snake.png'
+import img7 from  './imgPorfolio/7_Api_proyectoFinal_Vased_LMS.png'
+import img8 from  './imgPorfolio/8_LMS_proyectoFinal_Vased.png'
 //
 import Loader from 'react-loaders'
 //
@@ -59,6 +61,20 @@ const datos = [
     title: 'Python Turtle Play Snake',
     github: 'https://github.com/dariohimo/snake',
     demo: 'https://replit.com/@dariohimo/snake?v=1'
+  },
+  {
+    id: 7,
+    image: img7,
+    title: 'LMS_VASED Proyecto Final Backend',
+    github: 'https://github.com/dariohimo//vased-api',
+    demo: 'https://vased-api.herokuapp.com/api/v1/'
+  },
+  {
+    id: 8,
+    image: img8,
+    title: 'LMS_VASED Proyecto Final Frontend',
+    github: 'https://github.com/Jhuset2003/VasedWeb',
+    demo: 'https://vased-web.vercel.app/'
   },
 ]
 
